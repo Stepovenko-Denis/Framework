@@ -1,0 +1,5 @@
+php -S 0.0.0.0:8082 -t public public/index.php / sudo kill `sudo lsof -t -i:8082`
+composer require roave/security-advisories:dev-master
+composer dump-autoload
+composer require --dev phpunit/phpunit
+
